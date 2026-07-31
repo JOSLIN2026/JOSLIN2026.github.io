@@ -1,75 +1,489 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Joslin Joseph | Embedded Systems & IoT Developer</title>
+  <meta name="title" content="Joslin Joseph | Embedded Systems & IoT Developer">
+  <meta name="description" content="Official personal portfolio for Joslin Joseph. Discover IoT projects, embedded systems prototypes, and smart agriculture robotics.">
+  <meta name="keywords" content="Joslin Joseph, Embedded Systems, IoT, Developer, Arduino, ESP32, Kerala, Robotics, Smart Agriculture">
+  <meta name="author" content="Joslin Joseph">
+  <meta name="robots" content="index, follow">
 
-# JOSLIN JOSEPH
-### Electrical & Electronics Engineering Student | Embedded Systems | IoT Developer
-**"Build fast. Learn faster. Deliver real systems."**
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/JOSLIN2026">
+  <meta property="og:title" content="Joslin Joseph | Hardware & IoT Developer">
+  <meta property="og:description" content="Explore hardware prototypes, robotics, and embedded AI systems built by Joslin Joseph.">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joslin-joseph-65a918363/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_j_o_s__l_i_n/?hl=en)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:josephjoslin66@gmail.com)
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
 
-</div>
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
----
+  <!-- Integrated Stylesheet -->
+  <style>
+/* ==========================================================================
+   JOSLIN JOSEPH - HARDWARE PORTFOLIO (IRON MAN / STARK THEME)
+   ========================================================================== */
 
-## 🧠 About Me
+:root {
+  /* Color Palette - Dark Mode (Default) - Stark Industries / Dark Red Vibe */
+  --bg-primary: #0a0a0c;
+  --bg-secondary: #121216;
+  --bg-tertiary: #1a1a24;
+  --bg-glass: rgba(18, 18, 22, 0.85);
+  --bg-glass-card: rgba(26, 26, 36, 0.7);
+  --border-color: rgba(255, 255, 255, 0.05);
+  --border-glow: rgba(220, 38, 38, 0.4); /* Dark Red Glow */
+  
+  --text-primary: #f9fafb;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  
+  --accent-primary: #dc2626; /* Stark Red */
+  --accent-secondary: #991b1b; /* Deep Red */
+  --accent-tertiary: #0ea5e9; /* Arc Reactor Blue/Cyan */
+  --accent-emerald: #10b981; /* Success Green */
 
-I am an **Electrical & Electronics Engineering** student passionate about embedded systems, IoT architecture, and rapid hardware prototyping. I focus on building practical, end-to-end hardware solutions to solve real-world problems.
+  --gradient-brand: linear-gradient(135deg, #dc2626 0%, #b91c1c 50%, #0ea5e9 100%);
+  --gradient-glow: radial-gradient(circle at 50% 0%, rgba(220, 38, 38, 0.15), transparent 70%);
 
-- 🔭 **Currently Building:** IoT-based systems & automated hardware prototypes
-- 🌱 **Exploring:** TinyML / Embedded AI, smart agriculture automation & robotics
-- ⚡ **Core Advantage:** Bridging circuit design, microcontroller firmware, and sensor integration to build functional prototypes under constraints
-- 📍 **Location:** Kerala, India
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.5);
+  --shadow-md: 0 10px 25px -5px rgba(0,0,0,0.6);
+  --shadow-glow: 0 0 25px rgba(220, 38, 38, 0.25);
 
----
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
 
-## 🏆 Key Recognition & Achievements
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 
-- 🚀 **NASA Space Apps Challenge** – *Global Nominee*
-- 💡 **Young Innovators Programme (YIP 8.0)** – *District Winner (Cyber Physical Systems)*
+  --font-family: 'Plus Jakarta Sans', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
 
----
+[data-theme="light"] {
+  --bg-primary: #f4f4f5;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #e4e4e7;
+  --bg-glass: rgba(255, 255, 255, 0.9);
+  --bg-glass-card: rgba(255, 255, 255, 0.95);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --border-glow: rgba(220, 38, 38, 0.3);
 
-## ⚙️ Tech Stack & Hardware Toolkit
+  --text-primary: #18181b;
+  --text-secondary: #52525b;
+  --text-muted: #a1a1aa;
 
-### 🔩 Hardware & Embedded Platforms
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=Espressif&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi&logoColor=white)
-![Sensors & Actuators](https://img.shields.io/badge/Sensors%20%26%20Actuators-4682B4?style=for-the-badge&logo=microchip&logoColor=white)
-![PCB & Circuits](https://img.shields.io/badge/Circuit%20Design-00599C?style=for-the-badge&logo=circuitverse&logoColor=white)
+  --gradient-glow: radial-gradient(circle at 50% 0%, rgba(220, 38, 38, 0.08), transparent 70%);
+  --shadow-md: 0 10px 25px -5px rgba(0,0,0,0.1);
+  --shadow-glow: 0 0 20px rgba(220, 38, 38, 0.15);
+}
 
-### 💻 Firmware & Software Development
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Embedded C](https://img.shields.io/badge/Embedded%20C-00599C?style=for-the-badge&logo=microchip&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+/* Base Styles */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  line-height: 1.6;
+  overflow-x: hidden;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+img { max-width: 100%; height: auto; display: block; }
 
----
+/* Containers */
+.container { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 1.5rem; }
+.section { padding: 6rem 0; position: relative; }
+.section-header { text-align: center; max-width: 680px; margin: 0 auto 3.5rem auto; }
+.section-tag {
+  display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.35rem 1rem;
+  background: rgba(220, 38, 38, 0.1); border: 1px solid var(--border-glow);
+  border-radius: var(--radius-full); color: var(--accent-primary);
+  font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+}
+.section-title { font-family: var(--font-display); font-size: 2.5rem; font-weight: 800; line-height: 1.2; margin-bottom: 1rem; }
+.gradient-text { background: var(--gradient-brand); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
-## 🚀 Featured Hardware Projects
+/* Navbar */
+.navbar {
+  position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
+  background: var(--bg-glass); backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-color);
+}
+.navbar .container { display: flex; align-items: center; justify-content: space-between; height: 80px; }
+.nav-brand { display: flex; align-items: center; gap: 0.75rem; font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; }
+.nav-brand-logo {
+  width: 36px; height: 36px; background: var(--gradient-brand); border-radius: var(--radius-sm);
+  display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 900;
+}
+.nav-links { display: flex; align-items: center; gap: 2rem; list-style: none; }
+.nav-link { font-size: 0.95rem; font-weight: 600; color: var(--text-secondary); transition: color var(--transition-fast); position: relative; }
+.nav-link:hover, .nav-link.active { color: var(--text-primary); }
+.nav-link::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--accent-primary); transition: width var(--transition-fast); }
+.nav-link:hover::after { width: 100%; }
+.nav-actions { display: flex; align-items: center; gap: 1rem; }
+.theme-toggle-btn { width: 42px; height: 42px; border-radius: 50%; background: var(--bg-tertiary); border: 1px solid var(--border-color); color: var(--text-primary); display: flex; align-items: center; justify-content: center; }
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.75rem 1.6rem;
+  border-radius: var(--radius-full); background: var(--gradient-brand); color: #fff; font-weight: 700; box-shadow: var(--shadow-glow); transition: transform 0.2s;
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 30px rgba(220, 38, 38, 0.5); }
+.btn-secondary {
+  display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.75rem 1.6rem;
+  border-radius: var(--radius-full); background: var(--bg-tertiary); border: 1px solid var(--border-color); color: var(--text-primary); font-weight: 600;
+}
 
-| Project | Description | Tech Used |
-| :--- | :--- | :--- |
-| **🌾 Smart Pest Detection System** | Solar-assisted insect trap with automated monitoring for early agricultural pest warning | ESP32-CAM, IoT, Sensors |
-| **🤖 Automated AC Duct Cleaner** | Compact robotic platform for cleaning and real-time visual duct inspection | ESP32, Motor Drivers, Robotics |
-| **🌡️ IoT Temperature Controlled Fan** | Automatic environment-responsive fan control using real-time sensor feedback | Microcontrollers, PWM, Sensors |
-| **⚡ Energy Harvester (Footstep)** | Piezoelectric sensor array converting kinetic mechanical energy into electrical energy | Transducers, Energy Harvesting |
+/* Hero Section */
+.hero { min-height: 100vh; padding-top: 130px; display: flex; align-items: center; background: var(--gradient-glow); }
+.hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 3.5rem; align-items: center; }
+.hero-status-pill {
+  display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.4rem 1.2rem;
+  background: rgba(14, 165, 233, 0.1); border: 1px solid rgba(14, 165, 233, 0.3);
+  border-radius: var(--radius-full); color: var(--accent-tertiary); font-size: 0.88rem; font-weight: 700; margin-bottom: 1.5rem;
+}
+.pulse-dot { width: 8px; height: 8px; background: var(--accent-tertiary); border-radius: 50%; box-shadow: 0 0 10px var(--accent-tertiary); animation: pulse 2s infinite; }
+@keyframes pulse { 0% {box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.7);} 70% {box-shadow: 0 0 0 10px rgba(14, 165, 233, 0);} 100% {box-shadow: 0 0 0 0 transparent;} }
+.hero-title { font-family: var(--font-display); font-size: 3.75rem; font-weight: 800; line-height: 1.1; margin-bottom: 1.25rem; }
+.hero-subtitle { font-size: 1.25rem; color: var(--text-secondary); margin-bottom: 2rem; max-width: 580px; }
+.hero-cta { display: flex; gap: 1.2rem; margin-bottom: 3rem; }
+.hero-stats { display: flex; gap: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--border-color); }
+.stat-item h4 { font-family: var(--font-display); font-size: 1.8rem; font-weight: 800; }
+.stat-item p { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; }
 
----
+/* Avatar / Arc Reactor Frame */
+.hero-avatar-wrapper { position: relative; display: flex; justify-content: center; }
+.avatar-card {
+  width: 320px; height: 380px; border-radius: var(--radius-lg); background: var(--bg-glass-card);
+  border: 1px solid var(--border-color); padding: 1.2rem; box-shadow: var(--shadow-md);
+  backdrop-filter: blur(12px); transform: rotate(2deg); transition: 0.3s;
+}
+.avatar-card:hover { transform: rotate(0deg) scale(1.02); border-color: var(--accent-primary); box-shadow: var(--shadow-glow); }
+.avatar-img { width: 100%; height: 280px; border-radius: var(--radius-md); margin-bottom: 1rem; background: #000; }
+.avatar-meta { display: flex; justify-content: space-between; align-items: center; }
+.avatar-info h5 { font-size: 1.1rem; font-weight: 700; }
+.avatar-info p { font-size: 0.8rem; color: var(--text-muted); }
+.system-badge {
+  padding: 0.3rem 0.75rem; background: rgba(14, 165, 233, 0.15); border-radius: var(--radius-full);
+  color: var(--accent-tertiary); font-size: 0.8rem; font-weight: 700;
+}
+.floating-badge {
+  position: absolute; padding: 0.8rem 1.2rem; background: var(--bg-secondary); border: 1px solid var(--border-glow);
+  border-radius: var(--radius-md); box-shadow: var(--shadow-md); font-family: monospace; font-size: 0.85rem;
+  display: flex; align-items: center; gap: 0.75rem; animation: float 4s ease-in-out infinite; z-index: 10; font-weight: bold;
+}
+.floating-badge-top { top: -20px; left: -30px; color: var(--accent-primary); }
+.floating-badge-bottom { bottom: 20px; right: -30px; animation-delay: 2s; color: var(--accent-tertiary); }
+@keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
 
-## 📊 GitHub Stats
+/* Projects Grid */
+.projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; }
+.project-card {
+  background: var(--bg-glass-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg);
+  overflow: hidden; display: flex; flex-direction: column; transition: 0.3s;
+}
+.project-card:hover { transform: translateY(-6px); border-color: var(--border-glow); box-shadow: var(--shadow-md); }
+.project-content { padding: 1.5rem; display: flex; flex-direction: column; flex: 1; }
+.project-title { font-family: var(--font-display); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.5rem; }
+.project-description { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.25rem; flex: 1; }
+.project-tech-stack { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.tech-tag {
+  font-size: 0.78rem; padding: 0.25rem 0.65rem; background: var(--bg-tertiary);
+  border: 1px solid var(--border-color); border-radius: var(--radius-sm); color: var(--accent-tertiary); font-weight: 700;
+}
 
-<div align="center">
+/* Skills Matrix */
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+.skill-card { background: var(--bg-glass-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.5rem; }
+.skill-card h4 { font-size: 1.1rem; margin-bottom: 1.2rem; color: var(--accent-primary); display: flex; align-items: center; gap: 0.6rem; }
+.skill-item { margin-bottom: 1rem; }
+.skill-info { display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: 600; margin-bottom: 0.4rem; }
+.skill-bar { height: 6px; background: var(--bg-tertiary); border-radius: var(--radius-full); overflow: hidden; }
+.skill-fill { height: 100%; background: var(--gradient-brand); width: var(--w); border-radius: var(--radius-full); }
 
-![Joslin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JOSLIN2026&show_icons=true&theme=dark&hide_border=true&count_private=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JOSLIN2026&layout=compact&theme=dark&hide_border=true)
+/* Contact Section */
+.contact-container { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+.contact-info-card { background: var(--bg-glass-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 2.5rem; }
+.contact-item { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 1.5rem; font-weight: 600; }
+.contact-icon {
+  width: 48px; height: 48px; background: rgba(220, 38, 38, 0.1); border: 1px solid var(--border-glow);
+  border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; color: var(--accent-primary); font-size: 1.25rem;
+}
+.footer { padding: 3rem 0; border-top: 1px solid var(--border-color); background: var(--bg-secondary); text-align: center; color: var(--text-muted); }
 
-</div>
+@media (max-width: 992px) { .hero-grid { grid-template-columns: 1fr; text-align: center; } .hero-cta, .hero-stats { justify-content: center; } .contact-container { grid-template-columns: 1fr; } }
+@media (max-width: 768px) { .nav-links { display: none; } .hero-title { font-size: 2.75rem; } }
+  </style>
+</head>
+<body>
 
----
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-brand">
+        <div class="nav-brand-logo">J</div>
+        <span>Joslin Joseph</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Core</a></li>
+          <li><a href="#projects" class="nav-link">Prototypes</a></li>
+          <li><a href="#skills" class="nav-link">Toolkit</a></li>
+          <li><a href="#contact" class="nav-link">Initialize</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn"><i class="fas fa-moon"></i></button>
+        <a href="https://github.com/JOSLIN2026" target="_blank" class="btn-primary">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </header>
 
-<div align="center">
-  <sub>Designed & Maintained by <b>Joslin Joseph</b></sub>
-</div>
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-status-pill">
+              <span class="pulse-dot"></span>
+              <span>Systems Online & Ready for Prototyping</span>
+            </div>
+            <h1 class="hero-title">
+              Building Smart Hardware & <span class="gradient-text">IoT Systems</span>
+            </h1>
+            <p class="hero-subtitle">
+              Hi, I'm <strong style="color: var(--text-primary);">Joslin Joseph</strong>. An Electrical & Electronics Engineering student based in Kerala, building fast, learning faster, and delivering real hardware solutions.
+            </p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn-primary"><i class="fas fa-microchip"></i> View Prototypes</a>
+              <a href="#contact" class="btn-secondary"><i class="fas fa-satellite-dish"></i> Connect</a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <h4>NASA</h4>
+                <p>Space Apps Nominee</p>
+              </div>
+              <div class="stat-item">
+                <h4>YIP 8.0</h4>
+                <p>District Winner</p>
+              </div>
+              <div class="stat-item">
+                <h4>2024</h4>
+                <p>B.Tech Scheme</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-avatar-wrapper">
+            <div class="floating-badge floating-badge-top">
+              <i class="fas fa-bolt"></i> <span>Hardware Compiled</span>
+            </div>
+            <div class="avatar-card">
+              <!-- Custom Arc Reactor / Tech SVG -->
+              <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><defs><linearGradient id='bg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%231a0505'/><stop offset='100%' stop-color='%233f0a0a'/></linearGradient><radialGradient id='arc' cx='50%' cy='50%' r='50%'><stop offset='70%' stop-color='%230ea5e9' stop-opacity='0.1'/><stop offset='100%' stop-color='%230ea5e9' stop-opacity='0.8'/></radialGradient></defs><rect width='400' height='400' fill='url(%23bg)' rx='12'/><circle cx='200' cy='200' r='120' fill='none' stroke='%230ea5e9' stroke-width='4' opacity='0.5'/><circle cx='200' cy='200' r='100' fill='url(%23arc)' stroke='%230ea5e9' stroke-width='8'/><circle cx='200' cy='200' r='60' fill='none' stroke='%23dc2626' stroke-width='12' stroke-dasharray='30 10'/><circle cx='200' cy='200' r='30' fill='%23ffffff' opacity='0.9'/><path d='M200 60 L200 100 M200 300 L200 340 M60 200 L100 200 M300 200 L340 200' stroke='%230ea5e9' stroke-width='6'/></svg>" alt="Arc Reactor Core" class="avatar-img">
+              
+              <div class="avatar-meta">
+                <div class="avatar-info">
+                  <h5>Joslin Joseph</h5>
+                  <p>Thrissur, Kerala</p>
+                </div>
+                <div class="system-badge">
+                  <i class="fas fa-wifi"></i> ESP32 Linked
+                </div>
+              </div>
+            </div>
+            <div class="floating-badge floating-badge-bottom">
+              <i class="fas fa-microchip"></i> <span>Firmware v2.0 Flashed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-cogs"></i> Hardware Modules</div>
+          <h2 class="section-title">Featured <span class="gradient-text">Prototypes</span></h2>
+          <p class="section-description">Practical, real-world systems focusing on automation, agriculture, and robotics.</p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">🌾 Smart Pest Detection System</h3>
+              <p class="project-description">IoT-based early warning system for Brown Planthopper detection in paddy fields using ESP32-CAM and TinyML for local farmers.</p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">ESP32-CAM</span>
+                <span class="tech-tag">IoT</span>
+                <span class="tech-tag">Smart Agriculture</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">🤖 Automated AC Duct Robot</h3>
+              <p class="project-description">A specialized compact robotic platform designed with contra-rotating brushes (TB6612FNG driven) for automated HVAC cleaning and inspection.</p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Robotics</span>
+                <span class="tech-tag">Motor Drivers</span>
+                <span class="tech-tag">C++</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">🚀 VAST Rover 1.0</h3>
+              <p class="project-description">Autonomous four-wheel drive chassis integrating ultrasonic sensors for dynamic obstacle avoidance and automated sequences.</p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Arduino</span>
+                <span class="tech-tag">Automation</span>
+                <span class="tech-tag">Sensors</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">🌡️ IoT Temp Controlled Fan</h3>
+              <p class="project-description">Responsive automation hardware that dynamically adjusts fan speeds using real-time DHT22 environmental sensor feedback and PWM.</p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Embedded C</span>
+                <span class="tech-tag">Transducers</span>
+                <span class="tech-tag">PWM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-toolbox"></i> Arsenal</div>
+          <h2 class="section-title">Technical <span class="gradient-text">Toolkit</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h4><i class="fas fa-microchip"></i> Hardware & Embedded</h4>
+            <div class="skill-item">
+              <div class="skill-info"><span>ESP32 & Arduino Platforms</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Sensor Integration (I2C/SPI)</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Circuit & PCB Prototyping</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w: 75%;"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h4><i class="fas fa-code"></i> Firmware & Software</h4>
+            <div class="skill-item">
+              <div class="skill-info"><span>C & C++</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Python</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w: 80%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Embedded C</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w: 75%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-satellite"></i> Transmission</div>
+          <h2 class="section-title">Establish <span class="gradient-text">Connection</span></h2>
+          <p class="section-description">Looking to collaborate on IoT architecture or hardware prototyping? Send a signal.</p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info-card">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>Velur, Thrissur, Kerala</div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <a href="mailto:josephjoslin66@gmail.com">josephjoslin66@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+              <a href="https://www.linkedin.com/in/joslin-joseph-65a918363/" target="_blank">LinkedIn Profile</a>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+              <a href="https://www.instagram.com/_j_o_s__l_i_n/?hl=en" target="_blank">@_j_o_s__l_i_n</a>
+            </div>
+          </div>
+          
+          <div class="contact-info-card" style="display: flex; align-items: center; justify-content: center; text-align: center; border: 1px dashed var(--accent-primary);">
+            <div>
+              <i class="fas fa-terminal" style="font-size: 3rem; color: var(--accent-primary); margin-bottom: 1rem;"></i>
+              <h3>System Awaiting Input</h3>
+              <p style="color: var(--text-muted); margin-top: 0.5rem;">Connect via email or LinkedIn to discuss hardware projects, hackathons, and embedded systems development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Joslin Joseph. Engineered in Kerala.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Theme Toggle Logic
+    const themeBtn = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    const icon = themeBtn.querySelector('i');
+
+    themeBtn.addEventListener('click', () => {
+      if (html.getAttribute('data-theme') === 'dark') {
+        html.setAttribute('data-theme', 'light');
+        icon.classList.replace('fa-moon', 'fa-sun');
+      } else {
+        html.setAttribute('data-theme', 'dark');
+        icon.classList.replace('fa-sun', 'fa-moon');
+      }
+    });
+  </script>
+</body>
+</html>
