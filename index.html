@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iron Man</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0b0b0b;
+    color:white;
+}
+
+header{
+    background:#8b0000;
+    padding:20px;
+    text-align:center;
+    border-bottom:4px solid gold;
+}
+
+header h1{
+    color:gold;
+    font-size:40px;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    color:gold;
+    font-size:45px;
+}
+
+.hero p{
+    margin:20px auto;
+    width:70%;
+    color:#ddd;
+    line-height:1.6;
+}
+
+button{
+    background:gold;
+    color:black;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#ffcc00;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.card{
+    width:250px;
+    background:#1a1a1a;
+    border:2px solid gold;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+}
+
+.card h3{
+    color:gold;
+    margin-bottom:10px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    border-top:2px solid gold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>IRON MAN</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Suits</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>I Am Iron Man</h2>
+    <p>
+        Welcome to the Iron Man fan page. Explore Tony Stark's incredible
+        armored suits, advanced AI technology, and heroic adventures.
+    </p>
+    <button onclick="alert('Welcome, Avenger!')">Enter the Lab</button>
+</section>
+
+<section class="cards">
+    <div class="card">
+        <h3>Mark III</h3>
+        <p>The first iconic red and gold Iron Man armor.</p>
+    </div>
+
+    <div class="card">
+        <h3>Arc Reactor</h3>
+        <p>The powerful energy source that keeps Tony alive.</p>
+    </div>
+
+    <div class="card">
+        <h3>JARVIS</h3>
+        <p>Tony Stark's intelligent AI assistant.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Iron Man Fan Website</p>
+</footer>
+
+</body>
+</html>
